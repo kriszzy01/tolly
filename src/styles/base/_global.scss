@@ -1,0 +1,76 @@
+:root {
+  --color-light: #f4f8f5ff;
+  --color-dark: #000;
+  --color-neutral: #fff;
+  --color-shipping: #96b5e2;
+  --color-shipping-dark: #204070fa;
+  --color-payment: #e39d6d;
+  --color-new: #98c49d;
+  --color-grey: #b9b8b8;
+
+  --font-primary: Georgia, serif;
+  --font-secondary: "Segoe UI", sans-serif;
+  --font-tertiary: sans-serif;
+}
+
+#root {
+  display: flex;
+}
+
+body {
+  line-height: 1.5;
+  overflow-x: hidden;
+  padding: 1.25rem;
+  font-family: var(--font-primary);
+  background: var(--color-light);
+}
+
+main {
+  background-color: var(--color-neutral);
+  width: 47.875rem;
+  padding: 4rem 5rem;
+  border-radius: 7px;
+}
+
+aside {
+  background-color: transparent;
+  padding: 4rem 4rem;
+  height: 100%;
+  flex-grow: 1;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.1;
+}
+
+h1 {
+  font-family: var(--font-secondary);
+}
+
+h2 {
+  font-family: var(--font-tertiary);
+  font-size: 1.7rem;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+:focus {
+  //outline: 1px solid $secondary-shade;
+  outline-offset: 0.25rem;
+}
+
+//Visually hidden
+.vh {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+  overflow: hidden;
+  border: none;
+  outline: none;
+}

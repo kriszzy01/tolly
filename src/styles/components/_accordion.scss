@@ -1,0 +1,38 @@
+.accordion {
+  margin-bottom: 0.8rem;
+  font-family: var(--font-secondary);
+
+  button {
+    padding: 1rem;
+    background-color: var(--color-neutral);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    border-radius: 7px;
+    font-size: 0.75rem;
+  }
+
+  &_region {
+    height: 0;
+    overflow: hidden;
+    color: grey;
+    font-size: 0.85rem;
+
+    &[data-expanded="true"] {
+      padding: 1rem;
+      height: auto;
+    }
+
+    li {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 0.5rem;
+
+      > :last-child {
+        color: var(--color-dark);
+        font-weight: 500;
+      }
+    }
+  }
+}

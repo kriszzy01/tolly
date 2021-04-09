@@ -1,0 +1,19 @@
+.summary {
+  font-family: var(--font-secondary);
+
+  &_header {
+    margin-bottom: 3rem;
+  }
+
+  &_footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    margin-top: 2rem;
+
+    > :last-child {
+      font-weight: bold;
+      font-size: 1.2rem;
+    }
+  }
+}

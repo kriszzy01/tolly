@@ -1,0 +1,26 @@
+.stepper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  font-size: 0.75rem;
+  color: var(--color-grey);
+
+  &_step {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__icon {
+      height: 35px;
+      width: 35px;
+      margin-right: 0.5rem;
+    }
+
+    &[data-active="true"] {
+      .stepper_step__text :last-child {
+        color: var(--color-dark);
+        font-weight: 500;
+      }
+    }
+  }
+}

@@ -1,0 +1,98 @@
+.payments {
+  &_header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    > :last-child {
+      display: flex;
+      width: 8.75rem;
+      font-size: 13px;
+      font-family: var(--font-secondary);
+
+      p {
+        margin-left: 0.5rem;
+        
+        &:first-child {
+          font-weight: bold;
+          margin-bottom: 0.25rem;
+        }
+
+        &:last-child {
+          font-size: 0.625rem;
+          color: var(--color-grey);
+          letter-spacing: 0px;
+        }
+      }
+    }
+  }
+
+  &_tabs [role="tablist"] {
+    display: flex;
+    height: 1.875rem;
+
+    [role="tab"] {
+      display: flex;
+      align-items: flex-start;
+      font-size: 0.75rem;
+      color: var(--color-grey);
+      font-family: var(--font-secondary);
+      font-weight: 500;
+      margin-right: 3.0375rem;
+
+      &[aria-selected="true"] {
+        border-bottom: 2px solid var(--color-shipping-dark);
+        color: var(--color-dark);
+      }
+    }
+  }
+
+  hr {
+    border: 1px solid var(--color-light);
+    margin-bottom: 1.875rem;
+  }
+
+  &_form {
+    display: flex;
+    justify-content: space-between;
+    height: 21.6875rem;
+
+    > :first-child {
+      width: 11.6rem;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      > * {
+        &:first-child {
+          background: url("../../assets/mastercard.svg");
+        }
+
+        &:nth-child(2) {
+          background: url("../../assets/visa.svg");
+        }
+
+        &:last-child {
+          background: url("../../assets/new.svg");
+        }
+
+        &:first-child,
+        &:nth-child(2),
+        &:last-child {
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+        }
+
+        width: 100%;
+        height: 6.1875rem;
+        border-radius: 5px;
+      }
+    }
+
+    > :last-child {
+      width: 22.6875rem;
+    }
+  }
+}
