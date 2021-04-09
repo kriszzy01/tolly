@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/tolly/static/css/main.c2d91ab5.chunk.css",
+    "main.css": "/tolly/static/css/main.e0591c07.chunk.css",
     "main.js": "/tolly/static/js/main.d13ddb0a.chunk.js",
     "main.js.map": "/tolly/static/js/main.d13ddb0a.chunk.js.map",
     "runtime-main.js": "/tolly/static/js/runtime-main.12d94acd.js",
@@ -10,14 +10,14 @@
     "static/js/3.22e8e1f1.chunk.js": "/tolly/static/js/3.22e8e1f1.chunk.js",
     "static/js/3.22e8e1f1.chunk.js.map": "/tolly/static/js/3.22e8e1f1.chunk.js.map",
     "index.html": "/tolly/index.html",
-    "static/css/main.c2d91ab5.chunk.css.map": "/tolly/static/css/main.c2d91ab5.chunk.css.map",
+    "static/css/main.e0591c07.chunk.css.map": "/tolly/static/css/main.e0591c07.chunk.css.map",
     "static/js/2.36292931.chunk.js.LICENSE.txt": "/tolly/static/js/2.36292931.chunk.js.LICENSE.txt",
     "static/media/style.scss": "/tolly/static/media/visa.38955da6.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.12d94acd.js",
     "static/js/2.36292931.chunk.js",
-    "static/css/main.c2d91ab5.chunk.css",
+    "static/css/main.e0591c07.chunk.css",
     "static/js/main.d13ddb0a.chunk.js"
   ]
 }
